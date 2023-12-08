@@ -21,4 +21,8 @@ func main() {
 
     _, ok := m["k1"]
     fmt.Println("ok:", ok)
+    
+    n := map[string]int{"foo": 1, "bar": 2}
+    fmt.Println("map:", n)
+
     }
