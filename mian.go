@@ -25,4 +25,9 @@ func main() {
     n := map[string]int{"foo": 1, "bar": 2, "test": 3, "ada": 4, "aaa": 5}
     fmt.Println("map:", n)
 
+    for key, value := range n {
+	    fmt.Println(key, value)
+    }
+
+
     }
