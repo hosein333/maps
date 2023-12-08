@@ -19,6 +19,6 @@ func main() {
     delete(m, "k2")
     fmt.Println("map:", m)
 
-    k1, ok := m["k1"]
-    fmt.Println("ok:", ok, k1)
+    _, ok := m["k1"]
+    fmt.Println("ok:", ok)
     }
